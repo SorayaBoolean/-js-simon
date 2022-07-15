@@ -1,23 +1,20 @@
-//1.Visualizzare in pagina 5 numeri casuali
+////////////////////////////////////////////////////////////////
+//1.Visualizzare in pagina 5 numeri casuali/////////////////////
 
-    //voglio creare 5 <div col> dentro row richiamando la funzione:
+    //creare 5 <div col> dentro rowDom e inserirci i nRandom
     const rowDom = document.querySelector ('.row') 
 
     for (let i = 0; i < 5 ; i ++) {
-
        //richiamo la funzione che mi genera Nrandom
        const numeroCasuale  = genRandomNumbers (1, 100)
-       console.log (numeroCasuale) 
-
        // genera 5 col dentro rowDom
        const currentElement = createCol (numeroCasuale)
 
-       rowDom.append(currentElement)
-       
+       rowDom.append(currentElement)   
     }
-
-
+/////////////////////////////////////////////////////////////////
 //2.Da lì parte un timer di 30 secondi
+    setTimeout 
 
 //3.Dopo 30 secondi l’utente deve inserire uno alla volta  i numeri che ha visto precedentemente (prompt)
 

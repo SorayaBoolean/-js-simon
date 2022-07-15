@@ -8,6 +8,10 @@
     color: white;
 }
 
+.mb-10 {
+    margin-bottom: 10px;
+}
+
 html {
     background-color: green;
 }
@@ -20,8 +24,6 @@ body {
     align-items: center;
 }
 
-
-
 .row{
 
  height: 100px;
@@ -31,5 +33,9 @@ body {
  justify-content: center;
  border: 10px solid red;
  background-color: rgb(94, 143, 105);
+}
 
+.col {
+    width: calc(100% / 5);
+    height: 100%;
 }

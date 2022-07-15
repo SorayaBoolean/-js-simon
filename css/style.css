@@ -3,3 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.text-light{
+    color: white;
+}
+
+html {
+    background-color: green;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.row{
+
+ height: 100px;
+ width: 430px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border: 10px solid red;
+ background-color: rgb(94, 143, 105);
+
+}

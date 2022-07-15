@@ -8,6 +8,10 @@
        currentElement.classList.add ('col');
        rowDom.append (currentElement)
 
+       //mi richiamo la funzione che mi genera Nrandom
+       const numeroCasuale  = genRandomNumbers (1, 100)
+       console.log (numeroCasuale)
+       
     }
 
 //2.Da lì parte un timer di 30 secondi
